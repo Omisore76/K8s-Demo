@@ -25,3 +25,44 @@ A Docker container is a standardized unit of software that contains everything n
 ### Kubernetes
 
 Kubernetes is a system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon a decade and a half of experience at Google running production workloads at scale, combined with best-of-breed ideas and practices from the community.
+
+## Prerequisite
+
+To utilize this repo, the following must be available on your local machine:
+
+* Docker. Learn how to install docker [Here](https://docs.docker.com/desktop/install/windows-install/). 
+
+* Minikube and kubectl installed. Learn how to do that [Here](https://minikube.sigs.k8s.io/docs/start/).
+
+## How to Use This Repo
+
+1) Fork the repo, and clone it on our local device. 
+
+2) Navigate to the project directory. 
+
+3) Run
+```
+minikube start --driver=hyperv
+```
+**Note:** `virtualbox` can be used in place of hyperv as the driver, provided you have it installed. Also, `docker` can also be used.
+
+4) Once minikube has started, run
+```
+kubectl apply -f 
+```
+5) Next, run 
+```
+kubectl apply -f 
+```
+6) Then, run
+```
+kubectl apply -f 
+```
+7) Run
+```
+kubectl apply -f 
+```
+8) Finally, run
+```
+kubectl apply -f 
+```
