@@ -48,19 +48,19 @@ minikube start --driver=hyperv
 
 4) Once minikube has started, run
 ```
-kubectl apply -f 
+kubectl apply -f mongo-config.yaml
 ```
 5) Next, run 
 ```
-kubectl apply -f 
+kubectl apply -f mongo-secret.yaml
 ```
 6) Then, run
 ```
-kubectl apply -f 
+kubectl apply -f mongo.yaml
 ```
 7) Run
 ```
-kubectl apply -f 
+kubectl apply -f webapp.yaml
 ```
 8) Finally, run
 ```
