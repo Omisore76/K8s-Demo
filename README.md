@@ -64,5 +64,10 @@ kubectl apply -f webapp.yaml
 ```
 8) Finally, run
 ```
-kubectl apply -f 
+minikube service webapp-service
 ```
+This will open the webapp page on your browser.
+
+We have successfully deployed our MongoDB and Webapp on Kubernetes!
+
+Thank you!
